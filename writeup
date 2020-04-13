@@ -1,3 +1,5 @@
+-added my old my_world from my_robot into the turtlebot gazebo files. then used the gmapping package and map server to create a crude map of the world. this was saved on desktop and then move to the turtlebotsimulator folder
+
 -Made little changes to the original code for pick_objects and add_markers (the ones for test launches). Had these renamed to pick_objects_test and add_markers_test and generated the additional executables for the launch files.
 
 -rewrote the code for both pick_objects and add_markers. originally, i tried to use the amcl_pose topic to sequence out the events for picking up and dropping objects, however, i couldn't get reliable results since the x and y coordinates from amcl did not match the exact coordinates i plugged in. so instead of using position as a trigger for dropping in and removing markers, i made a new topic instead to which both pick_objects and add_markers subscribed and published to so that i could just ping that topic whenever a process concluded.
