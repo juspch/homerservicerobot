@@ -1,0 +1,2 @@
+set(pick_objects_MESSAGE_FILES "msg/goal_reached.msg")
+set(pick_objects_SERVICE_FILES "")

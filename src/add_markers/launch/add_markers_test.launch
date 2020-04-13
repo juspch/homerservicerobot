@@ -1,0 +1,10 @@
+<launch>
+
+ <!-- The addmarkers node -->
+  <node name="add_markers" type="add_markers_test" pkg="add_markers" output="screen">
+  </node>
+
+  <!-- <node name="pick_objects" type="pick_objects" pkg="pick_objects" output="screen"> -->
+
+
+</launch>

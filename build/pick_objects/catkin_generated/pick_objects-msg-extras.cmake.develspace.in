@@ -1,0 +1,2 @@
+set(pick_objects_MESSAGE_FILES "/home/juspch/workspace/Project5/src/pick_objects/msg/goal_reached.msg")
+set(pick_objects_SERVICE_FILES "")
